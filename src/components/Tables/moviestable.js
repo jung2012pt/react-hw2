@@ -1,12 +1,12 @@
 import { Box, Flex, Icon, Text, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
-function moviesRow(props){
+function moviesRow(props) {
 
-const {name,info,Rating,Genre,OriginalLanguage,Director,Producer,Writer,TheatersDate,StreamingDate,BoxOfficeUSA
-,Runtime,Distributor,SoundMix,AspectRatio,collection} = props;
-return(
-  <Flex my="1rem" justifyContent="space-between">
-    <Flex alignItems="left">
+  const { name, info, Rating, Genre, OriginalLanguage, Director, Producer, Writer, TheatersDate, StreamingDate, BoxOfficeUSA
+    , Runtime, Distributor, SoundMix, AspectRatio, collection } = props;
+  return (
+    <Flex my="1rem" justifyContent="space-between">
+      <Flex alignItems="left">
         <Box
           me="12px"
           borderRadius="50%"
@@ -18,107 +18,107 @@ return(
           h="35px"
         >
         </Box>
-<Flex direction="column">
-       <Text
+        <Flex direction="column">
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {name}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {info}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Rating}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Genre}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {OriginalLanguage}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Director}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Producer}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Writer}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {TheatersDate}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {StreamingDate}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {BoxOfficeUSA}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Runtime}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {Distributor}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {SoundMix}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {AspectRatio}
           </Text>
-    <Text
+          <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
             fontWeight="bold"
           >
             {collection}
           </Text>
-  </Flex>
+        </Flex>
       </Flex>
-  </Flex>
-);
+    </Flex>
+  );
 }
 
 export default movies;

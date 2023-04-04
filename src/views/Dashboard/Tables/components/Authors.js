@@ -14,6 +14,7 @@ import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
 import TablesTableRow from "components/Tables/TablesTableRow";
 import React from "react";
+import { SidebarHelp } from "components/Sidebar/SidebarHelp";
 
 const Authors = ({ title, captions, data }) => {
   const textColor = useColorModeValue("gray.700", "white");
@@ -37,23 +38,38 @@ const Authors = ({ title, captions, data }) => {
               })}
             </Tr>
           </Thead>
-          <Tbody>
+          <Tbody >
             {data.map((row) => {
               return (
-                <TablesTableRow
+                <TablesTableRow 
+
                   key={`${row.email}-${row.name}`}
                   name={row.name}
                   logo={row.logo}
-                  email={row.email}
-                  subdomain={row.subdomain}
-                  domain={row.domain}
-                  status={row.status}
-                  date={row.date}
+
+                  info={row.info}
+                  Rating={row.Rating}
+                  Genre={row.Genre}
+                  OriginalLanguage={row.OriginalLanguage}
+                  Director={row.Director}
+                  Producer={row.Producer}
+                  Writer={row.Writer}
+                  TheatersDate={row.TheatersDate}
+                  StreamingDate={row.StreamingDate}
+                  BoxOfficeUSA={row.BoxOfficeUSA}
+                  Runtime={row.Runtime}
+                  Distributor={row.Distributor}
+                  SoundMix={row.SoundMix}
+                  AspectRatio={row.AspectRatio}
+                  collection={row.collection}
+
                 />
               );
             })}
           </Tbody>
         </Table>
+        <SidebarHelp  />
+
       </CardBody>
     </Card>
   );
