@@ -1,10 +1,10 @@
 // Assets
-import avatar1 from "assets/img/avatars/avatar1.png";
-import avatar2 from "assets/img/avatars/avatar2.png";
-import avatar3 from "assets/img/avatars/avatar3.png";
-import avatar4 from "assets/img/avatars/avatar4.png";
-import avatar5 from "assets/img/avatars/avatar5.png";
-import avatar7 from "assets/img/avatars/avatar7.png";
+import avatar1 from "assets/img/avatars/poster1.png";
+import avatar2 from "assets/img/avatars/poster2.png";
+import avatar3 from "assets/img/avatars/poster3.png";
+import avatar4 from "assets/img/avatars/poster4.png";
+import avatar5 from "assets/img/avatars/poster5.png";
+import avatar7 from "assets/img/avatars/poster6.png";
 import avatar8 from "assets/img/avatars/avatar8.png";
 import avatar9 from "assets/img/avatars/avatar9.png";
 import avatar10 from "assets/img/avatars/avatar10.png";
@@ -394,7 +394,7 @@ export const olderTransactions = [
 export const movies = [
   {
     name: "AVENGERS: ENDGAME",
-    logo: avatar4,
+    logo: avatar1,
 
     info: "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
     Rating: "PG-13",
@@ -414,7 +414,7 @@ export const movies = [
   },
   {
     name: "AVATAR: THE WAY OF WATER",
-    logo: avatar4,
+    logo: avatar2,
 
     info: "Set more than a decade after the events of the first film, Avatar: The Way of Water begins to tell the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
     Rating: "PG-13",
@@ -434,7 +434,7 @@ export const movies = [
   },
   {
     name: "JOHN WICK: CHAPTER 4",
-    logo: avatar4,
+    logo: avatar3,
 
     info: "John Wick (Keanu Reeves) uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
     Rating: "R",
@@ -474,7 +474,7 @@ export const movies = [
   },
   {
     name: "THE LORD OF THE RINGS: THE TWO TOWERS",
-    logo: avatar4,
+    logo: avatar5,
 
     info: "The sequel to the Golden Globe-nominated and AFI Award-winning The Lord of the Rings: The Fellowship of the Ring, The Two Towers follows the continuing quest of Frodo (Elijah Wood) and the Fellowship to destroy the One Ring. Frodo and Sam (Sean Astin) discover they are being followed by the mysterious Gollum. Aragorn (Viggo Mortensen), the Elf archer Legolas and Gimli the Dwarf encounter the besieged Rohan kingdom, whose once great King Theoden has fallen under Saruman's deadly spell.",
     Rating: "PG-13",
@@ -494,7 +494,7 @@ export const movies = [
   },
   {
     name: "PUSS IN BOOTS: THE LAST WISH",
-    logo: avatar4,
+    logo: avatar7,
 
     info: "This fall, everyone's favorite leche-loving, swashbuckling, fear-defying feline returns. For the first time in more than a decade, DreamWorks Animation presents a new adventure in the Shrek universe as daring outlaw Puss in Boots discovers that his passion for peril and disregard for safety have taken their toll. Puss has burned through eight of his nine lives, though he lost count along the way. Getting those lives back will send Puss in Boots on his grandest quest yet. Academy Award® nominee Antonio Banderas returns as the voice of the notorious PiB as he embarks on an epic journey into the Black Forest to find the mythical Wishing Star and restore his lost lives. But with only one life left, Puss will have to humble himself and ask for help from his former partner and nemesis: the captivating Kitty Soft Paws (Oscar® nominee Salma Hayek). In their quest, Puss and Kitty will be aided--against their better judgment--by a ratty, chatty, relentlessly cheerful mutt, Perro (Harvey Guillén, What We Do in the Shadows). Together, our trio of heroes will have to stay one step ahead of Goldilocks (Oscar® nominee Florence Pugh, Black Widow) and the Three Bears Crime Family, Big Jack Horner (Emmy winner John Mulaney, Big Mouth) and terrifying bounty hunter, The Big Bad Wolf (Wagner Moura, Narcos).",
     Rating: "PG",
