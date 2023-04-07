@@ -23,7 +23,7 @@ import avatar3 from "assets/img/avatars/avatar3.png";
 import { ProfileIcon, SettingsIcon } from "components/Icons/Icons";
 // Custom Components
 import { ItemContent } from "components/Menu/ItemContent";
-import SidebarResponsive from "components/Sidebar/SidebarResponsive";
+// import SidebarResponsive from "components/Sidebar/SidebarResponsive";
 import PropTypes from "prop-types";
 import React from "react";
 import { NavLink } from "react-router-dom";
@@ -118,13 +118,13 @@ export default function HeaderLinks(props) {
           <Text display={{ sm: "none", md: "flex" }}>Sign In</Text>
         </Button>
       </NavLink>
-      <SidebarResponsive
+      {/* <SidebarResponsive
         logoText={props.logoText}
         secondary={props.secondary}
         routes={routes}
         // logo={logo}
         {...rest}
-      />
+      /> */}
       <SettingsIcon
         cursor="pointer"
         ms={{ base: "16px", xl: "0px" }}

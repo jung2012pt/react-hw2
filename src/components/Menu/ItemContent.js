@@ -10,7 +10,7 @@ export function ItemContent(props) {
   const spacing = " ";
   return (
     <>
-      <Avatar
+      {/* <Avatar
         name={props.aName}
         src={props.aSrc}
         borderRadius="12px"
@@ -30,7 +30,7 @@ export function ItemContent(props) {
             {props.time}
           </Text>
         </Flex>
-      </Flex>
+      </Flex> */}
     </>
   );
 }

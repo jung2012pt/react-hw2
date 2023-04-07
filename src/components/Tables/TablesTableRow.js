@@ -9,8 +9,6 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import React from "react";
-// import  OtherFile  from "../Sidebar/Otherfile";
-import { SidebarHelp } from "components/Sidebar/SidebarHelp";
 
 function TablesTableRow(props) {
   const { handleToggle } = props;
@@ -109,7 +107,7 @@ function TablesTableRow(props) {
           {/* <button onClick={handleClick}>Toggle Help</button> */}
         </Td>
       </Tr>
-      {/* <SidebarHelp /> */}
+   
     </>
   );
 }

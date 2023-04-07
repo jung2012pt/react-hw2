@@ -8,18 +8,7 @@ import { MastercardIcon, VisaIcon } from "components/Icons/Icons";
 // import React from "react";
 import { FaPaypal, FaWallet } from "react-icons/fa";
 import { RiMastercardFill } from "react-icons/ri";
-import {
-  billingData,
-  invoicesData,
-  newestTransactions,
-  olderTransactions,
-} from "variables/general";
-import BillingInformation from "./components/BillingInformation";
-import CreditCard from "./components/CreditCard";
-import Invoices from "./components/Invoices";
-import PaymentMethod from "./components/PaymentMethod";
-import PaymentStatistics from "./components/PaymentStatistics";
-import Transactions from "./components/Transactions";
+
 import { movies, tablesTableData, dashboardTableData } from "variables/general";
 import React, { useState } from "react";
 // import ProjectCard from "./";
