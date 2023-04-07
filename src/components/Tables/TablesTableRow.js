@@ -15,7 +15,7 @@ function TablesTableRow(props) {
 
   const handleClick = () => {
     // Call the handleToggle function when the button is clicked
-    OtherFile.handleToggle();
+    // OtherFile.handleToggle();
   };
   // info={row.info}
   //                 Rating={row.Rating}
@@ -91,7 +91,7 @@ function TablesTableRow(props) {
             {StreamingDate}
           </Text>
         </Td>
-        <Td>
+        {/* <Td>
           <Button p="0px" bg="transparent" variant="no-hover"
             onClick={handleClick}
           >
@@ -104,8 +104,8 @@ function TablesTableRow(props) {
               Edit
             </Text>
           </Button>
-          {/* <button onClick={handleClick}>Toggle Help</button> */}
-        </Td>
+     
+        </Td> */}
       </Tr>
    
     </>
