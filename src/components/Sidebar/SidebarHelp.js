@@ -34,7 +34,7 @@ export function SidebarHelp(props) {
       <OtherFile handleToggle={handleToggle} />
       {isOpen && (
         <Link href="#" mt="16px">
-          Click here for help
+          Click here for help fffffffffffffffffffff
         </Link>
       )}
     </Flex>

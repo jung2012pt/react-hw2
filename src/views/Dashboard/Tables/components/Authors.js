@@ -68,7 +68,7 @@ const Authors = ({ title, captions, data }) => {
             })}
           </Tbody>
         </Table>
-        <SidebarHelp  />
+       
 
       </CardBody>
     </Card>

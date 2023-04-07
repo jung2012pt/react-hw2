@@ -3,9 +3,9 @@ import Dashboard from "views/Dashboard/Dashboard";
 import Tables from "views/Dashboard/Tables";
 import Billing from "views/Dashboard/Billing";
 import RTLPage from "views/Dashboard/RTL";
-import Profile from "views/Dashboard/Profile";
-import SignIn from "views/Auth/SignIn.js";
-import SignUp from "views/Auth/SignUp.js";
+// import Profile from "views/Dashboard/Profile";
+// import SignIn from "views/Auth/SignIn.js";
+// import SignUp from "views/Auth/SignUp.js";
 
 import {
   HomeIcon,
@@ -36,7 +36,7 @@ var dashRoutes = [
   },
   {
     path: "/billing",
-    name: "Billing",
+    name: "Sale",
     rtlName: "لوحة القيادة",
     icon: <CreditIcon color="inherit" />,
     component: Billing,
